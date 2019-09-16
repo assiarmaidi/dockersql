@@ -28,11 +28,11 @@ if(isset($_GET['idc'])) {
         echo "</table>";
 
     } else {
-        echo "Ce client n'a pas de compte actuellement";
+        echo "Ce client n'a paaaas de compte actuellement";
     }
     $conn->close();
 } else {
-    echo "Pas de client";
+    echo "Paaaas de client";
 }
 
 ?>
