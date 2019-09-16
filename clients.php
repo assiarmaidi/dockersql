@@ -1,9 +1,10 @@
 <?php
-echo "test devops";
-/*$servername = "localhost";
+$servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "projet";
+
+echo "test devops";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -19,9 +20,10 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo " - le id " . $row["idclient"]. " - le nom: " . $row["Nom"]. " - la date de naissance " . $row["datedenaissance"]. "<br>";
+
     }
 } else {
     echo "0 results";
 }
-$conn->close();*/
+$conn->close();
 ?>
