@@ -9,7 +9,7 @@ if(isset($_SERVER['WINDIR'])){
 else {
     $servername = "172.17.0.2";
     $username = "root";
-    $password = "";
+    $password = "a";
     $dbname = "projet";
 }
 
