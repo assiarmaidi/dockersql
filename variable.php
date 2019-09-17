@@ -1,5 +1,6 @@
 <?php
 
-echo 'Mon nom d\'utilisateur est ' .$_ENV["USERNAME"] . '!';
+echo 'windir  ' .$_SERVER['WINDIR'] . '!';
 
+var_dump($_SERVER);
 ?>
