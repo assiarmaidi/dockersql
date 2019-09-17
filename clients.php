@@ -1,10 +1,17 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "projet";
-
-echo "test devops";
+if(isset($_SERVER['WINDIR'])){
+    //je suis sur windows
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "projet";
+}
+else {
+    $servername = "172.17.0.2";
+    $username = "root";
+    $password = "";
+    $dbname = "projet";
+}
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
