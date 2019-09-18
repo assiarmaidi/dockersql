@@ -18,8 +18,6 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo " - idclient: " . $row["idclient"]. " - Le numéro de compte : " . $row["numerodecompte"]. " - solde: " . $row["solde"]. " - idcompte: " . $row["idcompte"]. "<br>";
-        echo'<a href="mapage.php" > transaction </a>'. "<br>";
-        echo'<a href="mapage.php" > Ajouter une transaction </a>'. "<br>";
 
     }
 } else {
