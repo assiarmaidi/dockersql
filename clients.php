@@ -28,9 +28,6 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
 
         echo " - le id " . $row["idclient"]. " - le nom: " . $row["Nom"]. " - la date de naissance " . $row["datedenaissance"]. "<br>";
-        echo'<a href="mapage.php" > liste des comptes </a>'. "<br>";
-        echo'<a href="mapage.php" > Ajouter un compte </a>'. "<br>";
-
     }
 } else {
     echo "0 results";
